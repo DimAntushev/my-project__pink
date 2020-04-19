@@ -1,0 +1,40 @@
+{
+  "name": "pink",
+  "version": "1.0.0",
+  "description": "Проект для улучшения навыков вёрстки",
+  "private": true,
+  "scripts": {
+    "stylelint": "styleling \"source/sass/**/*.scss\" --syntax scss",
+    "css": "gulp css",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimAntushev/my-project__pink.git"
+  },
+  "author": "Дмитрий Антушев (@DimAntushev)",
+  "bugs": {
+    "url": "https://github.com/DimAntushev/my-project__pink/issues"
+  },
+  "homepage": "https://github.com/DimAntushev/my-project__pink#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-webp": "^4.0.1",
+    "posthtml-include": "^1.4.3",
+    "stylelint": "^13.3.2",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  },
+  "dependencies": {}
+}
